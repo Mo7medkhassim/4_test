@@ -1,0 +1,19 @@
+{
+    "name": "php_mvc/mvc_php",
+    "authors": [
+        {
+            "name": "Mohammed Alkhassim",
+            "email": "kassimsd350@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\":"./"
+        }
+    }
+    ,
+    "require": {
+        "vlucas/phpdotenv": "^5.3",
+        "dibi/dibi": "^4.2"
+    }
+}
