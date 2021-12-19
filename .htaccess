@@ -15,7 +15,7 @@
     RewriteRule ^ %1 [L,R=301]
 
     # Handle Front Controller...
-    RewriteCond %{REQUEST_FILENAME} !^public
+    # RewriteCond %{REQUEST_FILENAME} !^public
     RewriteCond %{REQUEST_FILENAME} !^public
     RewriteRule ^ index.php [L]
 </IfModule>
