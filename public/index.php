@@ -23,6 +23,7 @@ $config = [
 
 $app = new Application(dirname(__DIR__), $config);
 
+
 $app->router->get('/', [SiteController::class, 'home']);
 // register and login router
 $app->router->get('/login', [AuthController::class, 'login']);

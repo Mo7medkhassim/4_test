@@ -51,7 +51,7 @@ class Router
         if (is_array($callback)) {
             // $a = new $callback[1]();
             // echo '<br>';
-            // var_dump($a);die;
+            var_dump($callback);die;
             // /** @var \app\Core\Controller $controller */
             Application::$app->controller =  new $callback[0]();
             $controller = Application::$app->controller;
